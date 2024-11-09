@@ -1,0 +1,88 @@
+@import "../../vars.css";
+
+.container {
+  display: flex;
+  flex-direction: column;
+  border-radius: 12px;
+  background: var(--color-bg);
+  box-shadow: 0 8px 16px rgba(255, 255, 255, 0.15);
+  padding: 20px;
+  max-width: 320px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  margin-bottom: 100px;
+}
+
+.container:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 20px rgba(0, 0, 0, 0.2);
+}
+
+.image {
+  width: 100%;
+  border-radius: 8px;
+  object-fit: cover;
+  margin-bottom: 16px;
+}
+
+.content {
+  text-align: left;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: 700;
+  color: var(--color-primary);
+  margin: 0;
+}
+
+.subhead {
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--color-secondary);
+  margin: 4px 0;
+}
+
+.description {
+  font-size: 14px;
+  color: var(--color-text);
+  margin: 12px 0;
+}
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: 12px;
+  padding: 0;
+  list-style: none;
+}
+
+.skill {
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--color-text);
+  background-color: var(--color-dark);
+  border-radius: 16px;
+  padding: 4px 12px;
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.button {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 8px 20px;
+  background-color: var(--color-primary);
+  border-radius: 20px;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #008ba3;
+}

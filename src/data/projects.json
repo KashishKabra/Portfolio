@@ -1,0 +1,17 @@
+[
+    {
+      "title": "Artfolio",
+      "imageSrc": "projects/gallery.png",
+      "description": "This is a project developed as Java Swing application with MySQL integration for efficient artist portfolio management & artwork data handling.",
+      "skills": ["Java", "MySQL", "JSWING"],
+      "source": "https://github.com/KashishKabra/Art-management"
+    },
+    {
+      "title": "Lung Cancer Detection",
+      "imageSrc": "projects/health.png",
+      "description": "This is a project developed a Convolutional Neural Network (CNN) to classify CT scan images and used models as well, achieving an accuracy of 87% ",
+      "skills": ["ML", "CNN", "Google Colab", "Tensorflow"],
+      "source": "https://github.com/BunnyBrewster1724/Lung-Cancer-Detection-using-CNN-models"
+    }
+  ]
+  

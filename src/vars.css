@@ -1,0 +1,14 @@
+
+
+:root{
+    /* colors */
+    --color-text:#fff;/* can change this for the name of the navbar */
+    --color-primary: #00C2D7;
+    --color-secondary: #96a4b5;
+    --color-dark: #0b2447;
+    --color-bg: #0E2238;
+
+    /* Fonts */
+    --font-robot:"open-sans";
+
+}
